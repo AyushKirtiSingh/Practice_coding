@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "operator_precidence",
+            "request": "launch",
+            "mainClass": "operator_precidence",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "taking_input",
             "request": "launch",
             "mainClass": "taking_input",
