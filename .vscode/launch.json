@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "taking_input",
+            "request": "launch",
+            "mainClass": "taking_input",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "literals",
             "request": "launch",
             "mainClass": "literals",
