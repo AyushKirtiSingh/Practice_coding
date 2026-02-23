@@ -1,0 +1,36 @@
+public class logical {
+    public static void main(String[] args) {
+        System.out.println("For Logical AND...");
+        boolean a = false;
+        boolean b = false;
+              //logical AND operator acts from left to right
+        if (a && b){
+            System.out.println("Y");
+
+        }
+        else{
+            System.out.println("N");
+        }
+
+        System.out.println("For Logical OR...");
+        boolean a1 = false;
+        boolean b1 = true;
+              //logical OR operator acts from left to right
+        if (a1 || b1 ){
+            System.out.println("Y");
+
+        }
+        else{
+            System.out.println("N");
+        }
+        System.out.println("For Logical Not...");
+        System.out.print("Not(A) is:");
+        System.out.println(!a1);
+        System.out.print("Not(B) is:");
+        System.out.println(!b1);
+
+    }
+}
+
+
+
