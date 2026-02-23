@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rock_paper_scissors",
+            "request": "launch",
+            "mainClass": "rock_paper_scissors",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "custom_class",
             "request": "launch",
             "mainClass": "custom_class",
