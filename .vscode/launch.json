@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "conditionals",
+            "request": "launch",
+            "mainClass": "conditionals",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "average_calculation",
             "request": "launch",
             "mainClass": "average_calculation",
