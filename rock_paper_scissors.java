@@ -29,3 +29,15 @@ public class rock_paper_scissors {
         else if(player.equalsIgnoreCase("paper") && computer.equalsIgnoreCase("scissors")) {
             System.out.println("Sorry,You Lose!");
         }
+        else if(player.equalsIgnoreCase("paper") && computer.equalsIgnoreCase("paper")) {
+            System.out.println("It's a Tie!");
+        }
+        else if(player.equalsIgnoreCase("rock") && computer.equalsIgnoreCase("rock")) {
+            System.out.println("It's a Tie!");
+        }
+        else if(player.equalsIgnoreCase("scissors") && computer.equalsIgnoreCase("scissors")) {
+            System.out.println("It's a Tie!");
+        }
+
+    }
+}
