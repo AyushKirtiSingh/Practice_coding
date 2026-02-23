@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "first_n_natural_numbers",
+            "request": "launch",
+            "mainClass": "first_n_natural_numbers",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "website_type",
             "request": "launch",
             "mainClass": "website_type",
