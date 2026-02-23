@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "char_decryption",
+            "request": "launch",
+            "mainClass": "char_decryption",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "conditionals",
             "request": "launch",
             "mainClass": "conditionals",
