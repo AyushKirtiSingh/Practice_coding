@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leap_year",
+            "request": "launch",
+            "mainClass": "leap_year",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "tax_calculation",
             "request": "launch",
             "mainClass": "tax_calculation",

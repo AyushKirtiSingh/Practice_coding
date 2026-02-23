@@ -21,7 +21,7 @@ public class tax_calculation {
             tax = tax + 0.3f * (income - 10.0f);
 
         }
-        System.out.println("The tax to be paid by the employee is " + tax);
+        System.out.println("The tax to be paid by the employee is " + tax);56
         
     }
     
