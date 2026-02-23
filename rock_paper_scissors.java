@@ -11,3 +11,9 @@ public class rock_paper_scissors {
         int idx = random.nextInt(mystring.length);
         String computer = (mystring[idx]);
         System.out.println("The computer chose " + computer);
+        if(player.equalsIgnoreCase("rock")  && computer.equalsIgnoreCase("scissors")){
+            System.out.println("Congratulations,You Won!");
+        }
+        else if(player.equalsIgnoreCase("rock") && computer.equalsIgnoreCase("paper")){
+            System.out.println("Sorry,You Lose!");
+        }
