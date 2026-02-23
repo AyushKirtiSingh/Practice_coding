@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tax_calculation",
+            "request": "launch",
+            "mainClass": "tax_calculation",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "switch_case",
             "request": "launch",
             "mainClass": "switch_case",
