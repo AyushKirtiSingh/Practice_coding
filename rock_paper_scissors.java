@@ -17,3 +17,9 @@ public class rock_paper_scissors {
         else if(player.equalsIgnoreCase("rock") && computer.equalsIgnoreCase("paper")){
             System.out.println("Sorry,You Lose!");
         }
+        else if(player.equalsIgnoreCase("scissors") && computer.equalsIgnoreCase("rock")) {
+            System.out.println("Sorry,You Lose!");
+        }
+        else if(player.equalsIgnoreCase("scissors") && computer.equalsIgnoreCase("paper")) {
+            System.out.println("Congratulations,You Won!");
+        }
