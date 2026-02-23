@@ -25,4 +25,15 @@ public class custom_class {
         harry.Salary = 34;
 
 
-        
+        // Setting Attributes for john
+        john.id = 17;
+        john.name = "John Tripathi";
+        john.Salary = 78;
+
+        // Printing the Attributes
+        harry.printDetails();
+        john.printDetails();
+        int Salary = john.getSalary();
+        System.out.println(Salary);
+    }
+}
