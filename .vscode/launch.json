@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "website_type",
+            "request": "launch",
+            "mainClass": "website_type",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "leap_year",
             "request": "launch",
             "mainClass": "leap_year",
