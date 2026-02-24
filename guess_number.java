@@ -16,3 +16,18 @@ public class guess_number {
         while(guess != number) {
             System.out.print("Enter your guess: ");
             guess = sc.nextInt();
+
+            if(guess == number) {
+                System.out.println("🎉 Correct! You guessed the number.");
+            }
+            else if(guess > number) {
+                System.out.println("Too high! Try again.");
+            }
+            else {
+                System.out.println("Too low! Try again.");
+            }
+        }
+
+        sc.close();
+    }
+}
