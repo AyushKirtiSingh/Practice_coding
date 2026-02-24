@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "getter_setter",
+            "request": "launch",
+            "mainClass": "getter_setter",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "tommy_class",
             "request": "launch",
             "mainClass": "tommy_class",
