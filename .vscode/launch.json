@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "tommy_class",
+            "request": "launch",
+            "mainClass": "tommy_class",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "rectangle_class",
             "request": "launch",
             "mainClass": "rectangle_class",
