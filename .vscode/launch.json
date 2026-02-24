@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "guess_number",
+            "request": "launch",
+            "mainClass": "guess_number",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "constructors",
             "request": "launch",
             "mainClass": "constructors",
