@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sphere_class",
+            "request": "launch",
+            "mainClass": "sphere_class",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "guess_number",
             "request": "launch",
             "mainClass": "guess_number",
