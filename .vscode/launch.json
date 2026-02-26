@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fibonacciseries",
+            "request": "launch",
+            "mainClass": "fibonacciseries",
+            "projectName": "sample_ec79623a"
+        },
+        {
+            "type": "java",
             "name": "guess_no_using_class",
             "request": "launch",
             "mainClass": "guess_no_using_class",
